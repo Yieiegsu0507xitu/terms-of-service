@@ -1,1 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Delete Account &amp; Data — Palette Studio</title>
+  <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/Yieiegsu0507xitu/terms-of-service/refs/heads/main/icon%20alpha%20background.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #09090d;
+      --surface: #12121a;
+      --border: rgba(255, 255, 255, 0.08);
+      --text: #f5f5f7;
+      --muted: #9ca3af;
+      --accent: #c084fc;
+    }
 
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 24px 20px 60px;
+    }
+
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: var(--text);
+      font-weight: 700;
+      font-size: 1.1rem;
+    }
+
+    .brand img {
+      width: 36px;
+      height: 36px;
+      border-radius: 9px;
+      object-fit: cover;
+    }
+
+    .back-link {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+
+    .back-link:hover {
+      color: var(--text);
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 36px 32px;
+    }
+
+    h1 {
+      font-size: clamp(1.75rem, 4vw, 2.3rem);
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 10px;
+    }
+
+    .lead {
+      color: var(--muted);
+      font-size: 0.98rem;
+      margin-bottom: 24px;
+    }
+
+    h2 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin-top: 26px;
+      margin-bottom: 10px;
+      color: #ffffff;
+    }
+
+    p {
+      color: var(--muted);
+      font-size: 0.96rem;
+      margin-bottom: 14px;
+    }
+
+    ul, ol {
+      color: var(--muted);
+      font-size: 0.96rem;
+      padding-left: 22px;
+      margin-bottom: 16px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.86rem;
+      margin-top: 32px;
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        padding: 26px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="index.html" class="brand">
+        <img src="https://raw.githubusercontent.com/Yieiegsu0507xitu/terms-of-service/refs/heads/main/icon%20alpha%20background.png" alt="Palette Studio" />
+        <span>Palette Studio</span>
+      </a>
+      <a href="palettestudio.html" class="back-link">Privacy Policy</a>
+    </header>
+
+    <main class="card">
+      <h1>Account &amp; Data Deletion</h1>
+      <p class="lead">
+        This page explains how users of <strong>Palette Studio</strong> (<code>com.palettestudioo.app</code>) can request deletion of their Google Sign-In account data and cloud-synced items.
+      </p>
+
+      <h2>How to Request Account &amp; Cloud Data Deletion</h2>
+      <ol>
+        <li>Send an email to <a href="mailto:support@palettestudio.app?subject=Account%20and%20Data%20Deletion%20Request%20-%20Palette%20Studio">support@palettestudio.app</a> from the Google email address associated with your Palette Studio account.</li>
+        <li>Include the subject line <strong>"Account and Data Deletion Request - Palette Studio"</strong> and confirm that you want your cloud-synced account data deleted.</li>
+        <li>Your deletion request is processed within <strong>7 business days</strong>.</li>
+      </ol>
+
+      <h2>Data Deleted vs. Data Retained</h2>
+      <ul>
+        <li><strong>Deleted upon request:</strong> Cloud-synced user palettes, saved design presets, and account profile/sync records linked to your sign-in ID.</li>
+        <li><strong>Local device data:</strong> Items stored locally on your device remain until you clear app data or uninstall the app.</li>
+        <li><strong>Retained where required:</strong> Purchase and subscription transaction records processed via Google Play Billing / RevenueCat may be retained as required for tax, accounting, or fraud-prevention compliance.</li>
+      </ul>
+
+      <h2>Contact</h2>
+      <p>
+        For questions about account or data deletion, contact: <a href="mailto:support@palettestudio.app">support@palettestudio.app</a>
+      </p>
+    </main>
+
+    <footer>
+      © 2026 Palette Studio. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
