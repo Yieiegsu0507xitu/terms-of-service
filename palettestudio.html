@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Palette Studio</title>
+  <link rel="icon" type="image/png" href="icon alpha background.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #09090d;
+      --surface: #12121a;
+      --border: rgba(255, 255, 255, 0.08);
+      --text: #f5f5f7;
+      --muted: #9ca3af;
+      --accent: #c084fc;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 24px 20px 60px;
+    }
+
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: var(--text);
+      font-weight: 700;
+      font-size: 1.1rem;
+    }
+
+    .brand img {
+      width: 36px;
+      height: 36px;
+      border-radius: 9px;
+    }
+
+    .back-link {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+
+    .back-link:hover {
+      color: var(--text);
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 36px 32px;
+    }
+
+    h1 {
+      font-size: clamp(1.8rem, 4vw, 2.4rem);
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+    }
+
+    .updated {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-bottom: 28px;
+    }
+
+    h2 {
+      font-size: 1.18rem;
+      font-weight: 700;
+      margin-top: 28px;
+      margin-bottom: 10px;
+      color: #ffffff;
+    }
+
+    p {
+      color: var(--muted);
+      font-size: 0.96rem;
+      margin-bottom: 14px;
+    }
+
+    ul {
+      color: var(--muted);
+      font-size: 0.96rem;
+      padding-left: 20px;
+      margin-bottom: 16px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.86rem;
+      margin-top: 32px;
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        padding: 26px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="index.html" class="brand">
+        <img src="icon alpha background.png" alt="Palette Studio" />
+        <span>Palette Studio</span>
+      </a>
+      <a href="index.html" class="back-link">← Back to Home</a>
+    </header>
+
+    <main class="card">
+      <h1>Privacy Policy</h1>
+      <p class="updated">Effective Date: November 25, 2026</p>
+
+      <p>
+        This Privacy Policy explains how <strong>Palette Studio</strong> ("we", "our", or "us") collects, uses, and protects your information when you use the Palette Studio Android mobile application (<code>com.palettestudioo.app</code>).
+      </p>
+
+      <h2>1. Information We Collect</h2>
+      <ul>
+        <li><strong>Account &amp; Sync Information:</strong> If you choose to sign in with Google (via Firebase Authentication), we receive basic profile details such as your name, email address, and profile photo to authenticate your account and sync your saved color palettes across devices.</li>
+        <li><strong>User-Created Content:</strong> Color palettes, gradients, and settings you save in the app may be stored locally on your device and synced to your cloud account when signed in.</li>
+        <li><strong>Photos &amp; Media Access:</strong> When you use features like Image Color Picker or Glass Studio, the app accesses images you explicitly select from your device gallery. Image processing happens locally on your device, and we do not upload your personal photos to our servers.</li>
+        <li><strong>Purchase &amp; Subscription Data:</strong> In-app purchases and subscriptions are processed securely through Google Play Billing and managed via RevenueCat. We do not collect or store your credit card, UPI, or banking details.</li>
+        <li><strong>Diagnostics &amp; Crash Logs:</strong> Anonymous crash reports and basic device performance logs may be collected to fix bugs and improve app stability.</li>
+      </ul>
+
+      <h2>2. How We Use Your Information</h2>
+      <ul>
+        <li>To provide core features including palette generation, gradient creation, glass effects, and high-resolution wallpaper exports.</li>
+        <li>To back up and restore your saved palettes across Android devices via Google Sign-In.</li>
+        <li>To verify and unlock Pro subscriptions and lifetime purchases.</li>
+        <li>To maintain security, prevent fraud, and improve app performance.</li>
+      </ul>
+
+      <h2>3. Third-Party Services</h2>
+      <p>Palette Studio uses trusted third-party services that process data according to their own privacy policies:</p>
+      <ul>
+        <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Play Services &amp; Google Play Billing</a></li>
+        <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Authentication &amp; Cloud Firestore</a></li>
+        <li><a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">RevenueCat</a> (Subscription &amp; entitlement management)</li>
+      </ul>
+
+      <h2>4. Data Retention &amp; Deletion</h2>
+      <p>
+        Your synced data remains available while your account is active. You can delete your saved palettes directly within the app or request complete deletion of your account and cloud-synced data by contacting us at the email below.
+      </p>
+
+      <h2>5. Children's Privacy</h2>
+      <p>
+        Palette Studio is not directed to children under the age of 13, and we do not knowingly collect personal information from children.
+      </p>
+
+      <h2>6. Changes to This Policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time. Any updates will be posted on this page with an updated effective date.
+      </p>
+
+      <h2>7. Contact Us</h2>
+      <p>
+        If you have any questions or data deletion requests, contact us at: <a href="mailto:support@palettestudio.app">support@palettestudio.app</a>
+      </p>
+    </main>
+
+    <footer>
+      © 2026 Palette Studio. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
